@@ -158,6 +158,8 @@ body {
 
 }
 
+
+
 .div-feature {
     background-color: white;
     height: 30%;
@@ -188,7 +190,7 @@ body {
 /********************* Testimonials Section ****************/
 #testimonials {
     background-color: #ef8172;
-    padding: 6% 15% 4%;
+    padding: 2% 15%;
     text-align: center;
     color: white;
     font-family: 'montserrat';
@@ -201,6 +203,13 @@ body {
     
 }
 } */
+@media(min-width: 1050px) {
+#testimonials {
+    padding: 0% 15%;
+}
+}
+
+
 
 /*Dog image*/
 .My-Img {
@@ -252,8 +261,13 @@ body {
 } */
 /* pricing */
 #pricing {
-    padding: 3% 6%;
+    padding: 8% 6%;
     text-align: center;
+}
+@media(min-width: 1050px) {
+    #pricing {
+    padding: 6%;
+    }
 }
 
 .text {
@@ -268,14 +282,18 @@ body {
     background-color: #ff4c68;
     text-align: center;
     font-size: larger;
-    padding: 3%;
+    padding: 6% 3%;
     color: white;
     font-family: 'montserrat';
 
 
 
 }
-
+@media(min-width: 1050px) {
+#cta {
+        padding: 60px 50px 50px;
+    }
+    }
 .cta-button {
     /* font-size: large; */
     padding: 1%;
@@ -287,7 +305,9 @@ body {
 /*Footer*/
 #footer {
     text-align: center;
-    padding: 5%;
+    /* padding: 2%; */
+    /* margin:0%;
+    padding: 0%; */
 }
 
 .f-brands {
@@ -297,12 +317,12 @@ body {
 /*centering the apps icons on footer*/
 .f-center {
     /* padding:0 auto; */
-    margin: 20px auto 5px;
+    margin: 8px auto 2px;
     /* text-align: center; */
 }
 
 .copyright {
     text-align: center;
     color: gray;
-    padding: 2px auto 30px;
+    padding: 2px auto 15px;
 }
